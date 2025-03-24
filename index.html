@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>No one can hide BOT</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            background-color: #121212;
+            color: #f1f1f1;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body {
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #ff4655;
+            margin: 0;
+        }
+
+        main {
+            flex: 1;
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #1e1e1e;
+            border-radius: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+
+        .step {
+            margin-bottom: 20px;
+        }
+
+        .step h2 {
+            color: #ff4655;
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 30px;
+        }
+
+        .buttons a {
+            background-color: #ff4655;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #1f1f1f;
+            text-align: center;
+            padding: 20px;
+            color: #aaa;
+            font-size: 0.9em;
+        }
+
+        .footer-links a {
+            color: #ff4655;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>No one can hide BOT</h1>
+    <p>Track your last VALORANT match in Discord with OAuth integration</p>
+</header>
+
+<main>
+    <div class="step">
+        <h2>🔐 Step 1: Connect your Riot account</h2>
+        <p>The user logs in using Riot OAuth (RSO).</p>
+    </div>
+
+    <div class="step">
+        <h2>📦 Step 2: Fetch match data</h2>
+        <p>We retrieve the user’s last match and stats.</p>
+    </div>
+
+    <div class="step">
+        <h2>🤖 Step 3: Post in Discord</h2>
+        <p>A bot posts a summary of the last game in Discord, like this:</p>
+        <img src="image.png" alt="Match summary"/>
+    </div>
+
+    <div class="buttons">
+        <a href="https://discord.com/invite/8TYTYD8wwD" target="_blank">Help</a>
+        <a href="https://discord.com/invite/8TYTYD8wwD" target="_blank">Join Discord</a>
+    </div>
+</main>
+
+<footer>
+    <div class="footer-links">
+        <a href="legal.html">Terms of Services</a>
+    </div>
+    <p>© 2024 - No one can hide BOT. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
